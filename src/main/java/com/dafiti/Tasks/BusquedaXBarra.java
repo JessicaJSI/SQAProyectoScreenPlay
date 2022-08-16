@@ -30,9 +30,6 @@ public class BusquedaXBarra implements Task {
                     Click.on(BTN_BARRA_BUSQUEDA),
                     new ScrollToTarget(BTN_ZAPATOS_TELLENZI),
                     Click.on(BTN_ZAPATOS_TELLENZI),
-                    //Click.on(BTN_DESPLEGAR_TALLAS),
-                    //Click.on(LST_TALLA_ZAPATO),
-                    //SelectFromOptions.byVisibleText(datosExcel.leerDatosExcel("Datos.xlsx","TallaZapatos",1,0)).from(LST_TALLA_ZAPATO),
                     Click.on(BTN_AGREGAR_AL_CARRITO)
             );
         }catch (IOException e){
